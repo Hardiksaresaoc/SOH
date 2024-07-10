@@ -13,23 +13,6 @@ export default function RootLayout({ children }) {
     <>
       <html>
         <head>
-       <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F9DGFXBH4"></script>
-
-          <script>
-
-            {`
-
-              window.dataLayer = window.dataLayer || [];
-
-              function gtag(){dataLayer.push(arguments);}
-
-              gtag('js', new Date());
-
-              gtag('config', 'G-3F9DGFXBH4');
-
-            `}
-
-          </script>
           <link rel="icon" href="/images/favicon.ico" />
         </head>
         <body className={inter.className}>
