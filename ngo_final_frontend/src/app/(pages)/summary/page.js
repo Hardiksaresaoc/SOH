@@ -288,7 +288,7 @@ export default function Page() {
     <>
       {
         <>
-          <Script async src="https://www.clarity.ms/tag/n5o3v6zlha"></Script>
+          {/* <Script async src="https://www.clarity.ms/tag/n5o3v6zlha"></Script> */}
           <Script>
             {`
       (function(c,l,a,r,i,t,y){
